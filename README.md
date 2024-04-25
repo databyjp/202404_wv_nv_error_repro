@@ -1,4 +1,4 @@
-### repro failure
+# Named vector error reproduction notes
 
 Neartext and hybrid searches fail after upgrading Weaviate, using named vectors. Reproducible with both OpenAI & Cohere embeddings.
 
@@ -7,6 +7,12 @@ vector search: knn search: distance between entrypoint and query node: got a nil
 ```
 
 ### System details
+
+MacOS 14.4.1
+Python 3.10.12
+zsh 5.9
+Docker version 24.0.7, build afdd53b
+kind version 0.22.0
 
 ### Setup
 
